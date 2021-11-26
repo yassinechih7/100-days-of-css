@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+ .frame {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 width: 400px;
+	 height: 400px;
+	 margin-top: -200px;
+	 margin-left: -200px;
+	 border-radius: 2px;
+	 box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	 overflow: hidden;
+	 background: linear-gradient(to top right, #43389f 0%, #4ec6ca 100%);
+	 color: #333;
+	 font-family: "Open Sans", Helvetica, sans-serif;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+}
+ .center {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 display: flex;
+	 flex-direction: column;
+}
+ .center .digits {
+	 width: 192px;
+	 height: 90px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+ .center .digits .one .one-one {
+	 -webkit-box-shadow: inset 0px 0px 8px -6px #000;
+	 box-shadow: inset 0px 0px 8px -6px #000;
+	 box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	 position: absolute;
+	 top: 10px;
+	 right: 151px;
+	 height: 90px;
+	 width: 20px;
+	 background: #fff;
+	 border-radius: 3px;
+	 z-index: 23;
+}
+ .center .digits .one .one-two {
+	 box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	 position: absolute;
+	 transform: rotate(315deg);
+	 height: 20px;
+	 width: 40px;
+	 background: #fff;
+	 border-radius: 3px 3px 3px 3px;
+	 right: 155px;
+	 top: 20px;
+	 z-index: 0;
+}
+ .center .digits .zeroes {
+	 box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	 display: flex;
+}
+ .center .digits .zeroes .zero-one {
+	 position: absolute;
+	 bottom: 20px;
+	 height: 50px;
+	 top: 10px;
+	 right: 74px;
+	 width: 50px;
+	 border-radius: 50%;
+	 border: 20px solid #fff;
+	 box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	 z-index: 1;
+}
+ .center .digits .zeroes .zero-two {
+	 top: 10px;
+	 right: 8px;
+	 box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	 position: absolute;
+	 height: 50px;
+	 width: 50px;
+	 border-radius: 50%;
+	 border: 20px solid #fff;
+	 z-index: 0;
+}
+ .center .textContent {
+	 font-family: "Courier New", "Courier", sans-serif;
+	 font-weight: bold;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 text-align: center;
+	 color: #fff;
+}
+ .center .textContent .main-title {
+	 text-transform: uppercase;
+	 font-size: 82px;
+}
+ .center .textContent .sub-title {
+	 text-transform: uppercase;
+	 line-height: 4px;
+	 font-size: 23px;
+	 text-align: center;
+}
+ 
